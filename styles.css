@@ -1,1 +1,51 @@
-/* CSS code  */
+ul{
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+ul li{
+    display: inline;
+    padding: 5px 10px;
+    vertical-align: center;
+
+}
+
+nav{
+    background-color: #10243B;
+    color: white;
+    padding: 5px 10px;
+    
+}
+
+#one{
+    font-family: "Open sans , sans-serif";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px 24vw 20px 0px;
+    width: 100vw;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#bluebox{
+    background-color: #005983;
+    vertical-align: center;
+    padding: 5px 10px;
+}
+
+#heroSection{
+    width: 100vw;
+    height: 90vw;
+    background-image: url(images/graduation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navlogo{
+    height: 25px;
+    vertical-align: center;
+}

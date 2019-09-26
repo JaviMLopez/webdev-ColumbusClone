@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 ul{
     list-style-type: none;
     padding: 10px;
@@ -14,17 +19,37 @@ nav{
     background-color: #10243B;
     color: white;
     padding: 5px 10px;
+    block-size: 50px;
+    vertical-align: middle;
+    width: 98vw;
+    display: inline-block;
     
 }
 
 #one{
     font-family: "Open sans , sans-serif";
     text-transform: uppercase;
-    font-size: 12px;
+    background-color: #10243B;
+    color: white;
+    font-size: 11px;
     font-weight: bold;
     padding: 20px 24vw 20px 0px;
     width: 100vw;
+    display: inline;
 }
+
+#two{
+    font-family: "Open sans , sans-serif";
+    background-color: #10243B;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 20px 0px;
+    width: 100vw;
+    color: #a3dde8;
+
+}
+
 
 body{
     margin: 0px;
@@ -35,17 +60,79 @@ body{
     background-color: #005983;
     vertical-align: center;
     padding: 5px 10px;
+    display: inline;
+    position: relative;
+    float: right;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 #heroSection{
-    width: 100vw;
-    height: 90vw;
+    width: 99vw;
+    height: 90vh;
     background-image: url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .navlogo{
     height: 25px;
     vertical-align: center;
+}
+
+.picOne{
+    vertical-align: center;
+
+}
+
+#explore{
+    height: 400px;
+    width: 100vw;
+    background-color: #10243B;
+}
+
+#exploreheader{
+    height: 100px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#exploresection{
+    height: 300px;
+    width: 100vw;
+}
+
+.explorebox{
+    height: 300px;
+    width: 24.5%;
+    display: inline-block;
+}
+
+#patriotplaza{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#ccnn{
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#college{
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#media{
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-position: center;
 }

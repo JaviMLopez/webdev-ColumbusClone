@@ -17,6 +17,7 @@ ul li{
 
 nav{
     background-color: #10243B;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
     color: white;
     padding: 5px 10px;
     block-size: 50px;
@@ -135,4 +136,32 @@ body{
     background-image: url(images/ccnn\ live.png);
     background-size: cover;
     background-position: center;
+}
+
+#at_a_glance{
+    width: 100vw;
+    height: 800px;
+    background-color: white;
+}
+
+#at_glance_words{
+    color: #00344C;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.at_a_glancebox{
+    height: 300px;
+    width: 24.5%;
+    display: inline-block;
+}
+
+.carosel{
+    width: 250px;
+    position: center;
 }

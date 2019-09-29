@@ -140,11 +140,13 @@ body{
 
 #at_a_glance{
     width: 100vw;
-    height: 800px;
+    height: 676px;
     background-color: white;
+    text-align: center;
+    position: relative;
 }
 
-#at_glance_words{
+#at_glance_header{
     color: #00344C;
     text-align: center;
     font-size: 3em;
@@ -159,9 +161,139 @@ body{
     height: 300px;
     width: 24.5%;
     display: inline-block;
+    position: relative;
+    margins: 0px 0px 0px 0px;
 }
 
 .carosel{
     width: 250px;
     position: center;
+}
+
+.h4-style{
+    font-size: 1.875em;
+    color: #ca0d33;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.small_description{
+    margin: 10px 0px;
+    display: block;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* .small_boxes{
+    list-style: none;
+    padding: 0px 0px;
+    margin: 10px 0px;
+    display: inline;
+    background-color: #005983;
+    box-shadow: none;
+    list-style-type: square;
+} */
+
+#space{
+    height: 100px;
+
+}
+#largebox{
+text-align: center;
+}
+
+#largerboxset{
+    display: inline-block;
+    margin: 0 0 50px 0;
+    padding: 15px 20px 30px 20px;
+    width: 75vw;
+    height: 100px;
+    background-color: #00344C;
+    position: relative;
+    text-align: center;
+    background-image: 
+}
+
+.h3-style{
+    font-size: 1.875em;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    padding:15px 20px 30px 20px;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
+}
+
+#line{
+    width: 100vw;
+    height: 2px;
+    background-color: beige;
+    }
+
+#space2{
+    height: 20px;
+}
+
+#schoolbox{
+    width: 100vw;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+.h2-style{
+    font-size: 1.125em;
+    color: #00344C;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform:none;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    padding: 40px 20px 30px 20px;
+}
+
+#schoolpics{
+    height: 100px;
+    width: 100vw;
+}
+
+.picbox{
+    height: 100px;
+    width: 15%;
+    display: inline-block;
+}
+
+#um{
+    background-image: url(images/um.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#mit{
+    background-image: url(images/mit.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#wake{
+    background-image: url(images/wakeforest.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#yale{
+    background-image: url(images/yale.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#northcaro{
+    background-image: url(images/northcarolina.png);
+    background-size: cover;
+    background-position: center;
 }

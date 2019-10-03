@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 ul{
     list-style-type: none;
     padding: 10px;
@@ -15,14 +19,16 @@ ul li{
 
 }
 
+#photog{
+    height: 40px;
+}
+
 nav{
     background-color: #10243B;
-    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
     color: white;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     block-size: 50px;
-    vertical-align: middle;
-    width: 98vw;
+    width: 100%;
     display: inline-block;
     
 }
@@ -32,21 +38,22 @@ nav{
     text-transform: uppercase;
     background-color: #10243B;
     color: white;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 20px 24vw 20px 0px;
-    width: 100vw;
-    display: inline;
+    padding: 1% 0% 0% 0%;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #two{
     font-family: "Open sans , sans-serif";
     background-color: #10243B;
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 11px;
     font-weight: bold;
-    padding: 20px 0px;
-    width: 100vw;
+    float: right;
+    display: inline-block;
+    padding-top: 20px;
     color: #a3dde8;
 
 }
@@ -60,9 +67,7 @@ body{
 #bluebox{
     background-color: #005983;
     vertical-align: center;
-    padding: 5px 10px;
-    display: inline;
-    position: relative;
+    /* padding: 5px 10px; */
     float: right;
     text-transform: uppercase;
     display: inline-block;
@@ -71,20 +76,16 @@ body{
 #heroSection{
     width: 99vw;
     height: 90vh;
-    background-image: url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.navlogo{
-    height: 25px;
-    vertical-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
 }
 
 .picOne{
-    vertical-align: center;
-
+        height: 40px;
+        vertical-align: center;
+    }
 }
 
 #explore{
@@ -99,6 +100,7 @@ body{
     color: white;
     text-align: center;
     vertical-align: middle;
+    background-color: #10243B;
 }
 
 #exploresection{
@@ -209,7 +211,7 @@ text-align: center;
     margin: 0 0 50px 0;
     padding: 15px 20px 30px 20px;
     width: 75vw;
-    height: 100px;
+    height: 90px;
     background-color: #00344C;
     position: relative;
     text-align: center;
@@ -224,8 +226,7 @@ text-align: center;
     margin-bottom: 10px;
     display: block;
     text-align: center;
-    padding:15px 20px 30px 20px;
-    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
+    padding: 15px 20px 30px 20px;
 }
 
 #line{
@@ -264,7 +265,7 @@ text-align: center;
 
 .picbox{
     height: 170px;
-    width: 15%;
+    width: 19.5%;
     display: inline-block;
 }
 
@@ -348,6 +349,7 @@ a{
     /* padding: 12.5px 25px 12.5px 0px; */
     text-decoration: none;
     /* margin-top: 10px; */
+    display: inline-block;
 } 
 
 #leftfoot {
@@ -357,7 +359,7 @@ a{
     color: #A3DDE8;
     vertical-align: middle;
     margin-top: 15.5px;
-    margin-left: 500px;
+    margin-right: 10%;
 }
 
 
@@ -368,7 +370,6 @@ a{
     text-decoration: none;
     font-size: 1.0rem;
     color: #A3DDE8;
-    margin-right: 650px;
     margin-top: 5.5px;
     float: right;
 }
@@ -391,13 +392,13 @@ a:-webkit-any-link {
     text-transform: uppercase;
     color: white;
     background-color: #333333;
-    margin-left: 510px;
-    margin-top: 30px;
+    margin-left: 26%;
+    margin-top: 2%;
 }
 
 #mission{
     display: block;
-    padding: 100px 910px 30px 510px;
+    padding: 5% 38% 0% 26%;
     font-size: .875em;
     font-style: italic;
     color: #ffffff;
@@ -407,10 +408,10 @@ a:-webkit-any-link {
 }
 
 #seal{
-    padding: 110px 700px 0px 0px;
+    padding: 5% 19% 0% 0%;
 }
 
-/* #sitemap{
-   margin-right: 100px;
+#sitemap{
+   padding-right: 11%;
 
-} */
+}
